@@ -22,8 +22,6 @@
 		557CF16D1432025800F449E7 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 557CF16C1432025800F449E7 /* Cities.plist */; };
 		557CF172143202AE00F449E7 /* Icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 557CF170143202AE00F449E7 /* Icon57.png */; };
 		557CF173143202AE00F449E7 /* Icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 557CF171143202AE00F449E7 /* Icon114.png */; };
-		558474DE1432069B0002C1C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 558474DC1432069B0002C1C1 /* Default.png */; };
-		558474DF1432069B0002C1C1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 558474DD1432069B0002C1C1 /* Default@2x.png */; };
 		55D8FC911431DC9F00291E57 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D8FC901431DC9F00291E57 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,8 +47,6 @@
 		557CF16C1432025800F449E7 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cities.plist; path = Resources/Data/Cities.plist; sourceTree = SOURCE_ROOT; };
 		557CF170143202AE00F449E7 /* Icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon57.png; path = Resources/Icon/Icon57.png; sourceTree = SOURCE_ROOT; };
 		557CF171143202AE00F449E7 /* Icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon114.png; path = Resources/Icon/Icon114.png; sourceTree = SOURCE_ROOT; };
-		558474DC1432069B0002C1C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = SOURCE_ROOT; };
-		558474DD1432069B0002C1C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		55D8FC901431DC9F00291E57 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -124,8 +120,6 @@
 		550528B51431D73D00804B92 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				558474DC1432069B0002C1C1 /* Default.png */,
-				558474DD1432069B0002C1C1 /* Default@2x.png */,
 				557CF16F1432029F00F449E7 /* Data */,
 				557CF16E1432029C00F449E7 /* Icons */,
 			);
@@ -230,8 +224,6 @@
 				557CF16D1432025800F449E7 /* Cities.plist in Resources */,
 				557CF172143202AE00F449E7 /* Icon57.png in Resources */,
 				557CF173143202AE00F449E7 /* Icon114.png in Resources */,
-				558474DE1432069B0002C1C1 /* Default.png in Resources */,
-				558474DF1432069B0002C1C1 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

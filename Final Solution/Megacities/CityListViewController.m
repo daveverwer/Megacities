@@ -5,6 +5,7 @@
 
 @synthesize cities = _cities;
 
+#pragma mark View lifecycle
 - (void)viewDidLoad
 {
   [super viewDidLoad];
@@ -18,6 +19,7 @@
   self.cities = [NSArray arrayWithContentsOfFile:citiesFilePath];
 }
 
+#pragma mark Table view data source
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section
 {
@@ -40,6 +42,7 @@
   return cell;
 }
 
+#pragma mark Table view delegate
 - (void)tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -49,6 +52,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
   [controller release]; controller = nil;
 }
 
+#pragma mark Memory management
 - (void)dealloc
 {
   self.cities = nil;
