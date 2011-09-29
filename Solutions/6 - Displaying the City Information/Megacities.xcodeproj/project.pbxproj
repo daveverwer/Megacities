@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5505288E1431D44200804B92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505288D1431D44200804B92 /* UIKit.framework */; };
+		550528901431D44200804B92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505288F1431D44200804B92 /* Foundation.framework */; };
+		550528921431D44200804B92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550528911431D44200804B92 /* CoreGraphics.framework */; };
+		550528981431D44200804B92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 550528961431D44200804B92 /* InfoPlist.strings */; };
+		5505289A1431D44200804B92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 550528991431D44200804B92 /* main.m */; };
+		5505289E1431D44200804B92 /* MegacitiesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5505289D1431D44200804B92 /* MegacitiesAppDelegate.m */; };
+		550528A11431D44200804B92 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5505289F1431D44200804B92 /* MainWindow.xib */; };
+		550528A41431D44200804B92 /* CityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550528A31431D44200804B92 /* CityListViewController.m */; };
+		550528A71431D44200804B92 /* CityListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550528A51431D44200804B92 /* CityListViewController.xib */; };
+		550528C11431DA4E00804B92 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550528C01431DA4E00804B92 /* MapKit.framework */; };
+		557CF172143202AE00F449E7 /* Icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 557CF170143202AE00F449E7 /* Icon57.png */; };
+		557CF173143202AE00F449E7 /* Icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 557CF171143202AE00F449E7 /* Icon114.png */; };
+		55D8FC911431DC9F00291E57 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D8FC901431DC9F00291E57 /* CoreLocation.framework */; };
+		55FAB6EB143463AD00AD94BB /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55FAB6EA143463AD00AD94BB /* Cities.plist */; };
+		55FAB6F7143465EE00AD94BB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FAB6F5143465EE00AD94BB /* MapViewController.m */; };
+		55FAB6F8143465EE00AD94BB /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FAB6F6143465EE00AD94BB /* MapViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		550528891431D44200804B92 /* Megacities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Megacities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5505288D1431D44200804B92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5505288F1431D44200804B92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		550528911431D44200804B92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		550528951431D44200804B92 /* Megacities-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Megacities-Info.plist"; sourceTree = "<group>"; };
+		550528971431D44200804B92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		550528991431D44200804B92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5505289B1431D44200804B92 /* Megacities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Megacities-Prefix.pch"; sourceTree = "<group>"; };
+		5505289C1431D44200804B92 /* MegacitiesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MegacitiesAppDelegate.h; sourceTree = "<group>"; };
+		5505289D1431D44200804B92 /* MegacitiesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MegacitiesAppDelegate.m; sourceTree = "<group>"; };
+		550528A01431D44200804B92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		550528A21431D44200804B92 /* CityListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityListViewController.h; sourceTree = "<group>"; };
+		550528A31431D44200804B92 /* CityListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityListViewController.m; sourceTree = "<group>"; };
+		550528A61431D44200804B92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CityListViewController.xib; sourceTree = "<group>"; };
+		550528C01431DA4E00804B92 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		557CF170143202AE00F449E7 /* Icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon57.png; path = Resources/Icon/Icon57.png; sourceTree = SOURCE_ROOT; };
+		557CF171143202AE00F449E7 /* Icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon114.png; path = Resources/Icon/Icon114.png; sourceTree = SOURCE_ROOT; };
+		55D8FC901431DC9F00291E57 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		55FAB6EA143463AD00AD94BB /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cities.plist; path = Resources/Data/Cities.plist; sourceTree = SOURCE_ROOT; };
+		55FAB6F4143465EE00AD94BB /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		55FAB6F5143465EE00AD94BB /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		55FAB6F6143465EE00AD94BB /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550528861431D44200804B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D8FC911431DC9F00291E57 /* CoreLocation.framework in Frameworks */,
+				550528C11431DA4E00804B92 /* MapKit.framework in Frameworks */,
+				5505288E1431D44200804B92 /* UIKit.framework in Frameworks */,
+				550528901431D44200804B92 /* Foundation.framework in Frameworks */,
+				550528921431D44200804B92 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5505287E1431D44200804B92 = {
+			isa = PBXGroup;
+			children = (
+				550528931431D44200804B92 /* Megacities */,
+				5505288C1431D44200804B92 /* Frameworks */,
+				5505288A1431D44200804B92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5505288A1431D44200804B92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550528891431D44200804B92 /* Megacities.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5505288C1431D44200804B92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5505288F1431D44200804B92 /* Foundation.framework */,
+				550528911431D44200804B92 /* CoreGraphics.framework */,
+				5505288D1431D44200804B92 /* UIKit.framework */,
+				550528C01431DA4E00804B92 /* MapKit.framework */,
+				55D8FC901431DC9F00291E57 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		550528931431D44200804B92 /* Megacities */ = {
+			isa = PBXGroup;
+			children = (
+				550528BE1431DA0900804B92 /* Controllers */,
+				550528BF1431DA1000804B92 /* View Controllers */,
+				550528B51431D73D00804B92 /* Resources */,
+				550528941431D44200804B92 /* Supporting Files */,
+			);
+			path = Megacities;
+			sourceTree = "<group>";
+		};
+		550528941431D44200804B92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				550528951431D44200804B92 /* Megacities-Info.plist */,
+				550528961431D44200804B92 /* InfoPlist.strings */,
+				550528991431D44200804B92 /* main.m */,
+				5505289B1431D44200804B92 /* Megacities-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		550528B51431D73D00804B92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				557CF16F1432029F00F449E7 /* Data */,
+				557CF16E1432029C00F449E7 /* Icons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		550528BE1431DA0900804B92 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5505289C1431D44200804B92 /* MegacitiesAppDelegate.h */,
+				5505289D1431D44200804B92 /* MegacitiesAppDelegate.m */,
+				5505289F1431D44200804B92 /* MainWindow.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		550528BF1431DA1000804B92 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				550528A21431D44200804B92 /* CityListViewController.h */,
+				550528A31431D44200804B92 /* CityListViewController.m */,
+				550528A51431D44200804B92 /* CityListViewController.xib */,
+				55FAB6F4143465EE00AD94BB /* MapViewController.h */,
+				55FAB6F5143465EE00AD94BB /* MapViewController.m */,
+				55FAB6F6143465EE00AD94BB /* MapViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		557CF16E1432029C00F449E7 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				557CF170143202AE00F449E7 /* Icon57.png */,
+				557CF171143202AE00F449E7 /* Icon114.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		557CF16F1432029F00F449E7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				55FAB6EA143463AD00AD94BB /* Cities.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550528881431D44200804B92 /* Megacities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550528AA1431D44200804B92 /* Build configuration list for PBXNativeTarget "Megacities" */;
+			buildPhases = (
+				550528851431D44200804B92 /* Sources */,
+				550528861431D44200804B92 /* Frameworks */,
+				550528871431D44200804B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Megacities;
+			productName = Megacities;
+			productReference = 550528891431D44200804B92 /* Megacities.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550528801431D44200804B92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Shiny Development Ltd.";
+			};
+			buildConfigurationList = 550528831431D44200804B92 /* Build configuration list for PBXProject "Megacities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5505287E1431D44200804B92;
+			productRefGroup = 5505288A1431D44200804B92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550528881431D44200804B92 /* Megacities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550528871431D44200804B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550528981431D44200804B92 /* InfoPlist.strings in Resources */,
+				550528A11431D44200804B92 /* MainWindow.xib in Resources */,
+				550528A71431D44200804B92 /* CityListViewController.xib in Resources */,
+				557CF172143202AE00F449E7 /* Icon57.png in Resources */,
+				557CF173143202AE00F449E7 /* Icon114.png in Resources */,
+				55FAB6EB143463AD00AD94BB /* Cities.plist in Resources */,
+				55FAB6F8143465EE00AD94BB /* MapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550528851431D44200804B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5505289A1431D44200804B92 /* main.m in Sources */,
+				5505289E1431D44200804B92 /* MegacitiesAppDelegate.m in Sources */,
+				550528A41431D44200804B92 /* CityListViewController.m in Sources */,
+				55FAB6F7143465EE00AD94BB /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		550528961431D44200804B92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550528971431D44200804B92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5505289F1431D44200804B92 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550528A01431D44200804B92 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		550528A51431D44200804B92 /* CityListViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550528A61431D44200804B92 /* en */,
+			);
+			name = CityListViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		550528A81431D44200804B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		550528A91431D44200804B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		550528AB1431D44200804B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Megacities/Megacities-Prefix.pch";
+				INFOPLIST_FILE = "Megacities/Megacities-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		550528AC1431D44200804B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Megacities/Megacities-Prefix.pch";
+				INFOPLIST_FILE = "Megacities/Megacities-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550528831431D44200804B92 /* Build configuration list for PBXProject "Megacities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550528A81431D44200804B92 /* Debug */,
+				550528A91431D44200804B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550528AA1431D44200804B92 /* Build configuration list for PBXNativeTarget "Megacities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550528AB1431D44200804B92 /* Debug */,
+				550528AC1431D44200804B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 550528801431D44200804B92 /* Project object */;
+}
