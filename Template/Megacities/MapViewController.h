@@ -1,3 +1,0 @@
-@interface MapViewController : UIViewController
-
-@end
