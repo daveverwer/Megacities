@@ -3,7 +3,6 @@
 @property (nonatomic, retain) NSDictionary *city;
 
 @property (nonatomic, retain) IBOutlet MKMapView *mapView;
-@property (nonatomic, retain) IBOutlet UILabel *cityNameLabel;;
-@property (nonatomic, retain) IBOutlet UILabel *cityPopulationLabel;;
+@property (nonatomic, retain) IBOutlet UILabel *cityPopulationLabel;
 
 @end

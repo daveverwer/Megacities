@@ -32,26 +32,21 @@
   if (cell == nil) {
     cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                    reuseIdentifier:cellID] autorelease];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
   }
 
   NSDictionary *city = [self.cities objectAtIndex:indexPath.row];
   cell.textLabel.text = [city valueForKey:@"Name"];
+  cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
   return cell;
 }
 
 - (void)tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-  MapViewController *controller = [[MapViewController alloc] initWithNibName:@"MapViewController" bundle:nil];
+  MapViewController *controller = [[MapViewController alloc] init];
   controller.city = [self.cities objectAtIndex:indexPath.row];
   [self.navigationController pushViewController:controller animated:YES];
   [controller release]; controller = nil;
-}
-
-- (void)viewDidUnload
-{
-  [super viewDidUnload];
 }
 
 - (void)dealloc
